@@ -1,9 +1,109 @@
-<!doctype html>
-<html>
-  <head>
-    <title>hellonearth311 / Swarit Narang</title>
-  </head>
-  <body>
-    <p>Hey there, this is my website.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swarit Narang</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928DAB);
+      color: #ffffff;
+      line-height: 1.6;
+      padding: 2rem;
+      animation: fadeIn 1s ease-in;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 4rem;
+      background: linear-gradient(to right, #ff6a00, #ee0979);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: slideDown 1s ease-out;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 1rem auto;
+      font-size: 1.1rem;
+      color: #e0e0e0;
+    }
+
+    section {
+      margin: 3rem auto;
+      max-width: 800px;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ffecd2;
+    }
+
+    a {
+      color: #90cdf4;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Swarit Narang</h1>
+    <p>✨ Student. Coder. ML explorer. Robotics nerd. Currently plotting how to get into MIT and build the future.</p>
+  </header>
+
+  <section>
+    <h2>Statz 📊</h2>
+    <p>An advanced system specifications python API that gets real data from your computer, nearly instantly.</p>
+  </section>
+
+  <section>
+    <h2>Echoes of the Void 🌌</h2>
+    <p>A dark, mysterious Minecraft mod made with Fabric 1.21.8. Adds custom structures, eerie mobs, and insane items. Built for the explorers who like to hear whispers in the shadows.</p>
+  </section>
+
+  <section>
+    <h2>PulseAI ❤️‍🔥</h2>
+    <p>ML-powered heart disease prediction model. Uses real datasets, TensorFlow, and clean visualization to help predict cardiovascular risks.</p>
+  </section>
+
+</body>
 </html>
